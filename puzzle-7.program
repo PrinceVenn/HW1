@@ -1,0 +1,28 @@
+Recipe:DownM  
+    Repeat If GetColor is not pink
+        |Down
+        
+Recipe:UpM 
+    Repeat If GetColor is not pink
+        |Up
+    
+    
+DownM
+  If GetColor pink
+      |Right
+      |Right
+UpM
+  If GetColor pink
+      |Right
+      |Right
+DownM
+  If GetColor pink
+      |Right
+      |Right
+UPM
+   If GetColor pink
+      |Right
+      |Right
+DownM
+  If GetColor pink
+      |Right
