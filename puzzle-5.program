@@ -1,0 +1,16 @@
+Recipe:UpDown
+        If GetColor is blue
+            |Down
+            |Right
+            |Right
+        If GetColor is pink    
+            |Up
+            |Right
+            |Right
+           
+Right
+Right
+UpDown
+UpDown
+UpDown
+Right
