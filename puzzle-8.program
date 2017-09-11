@@ -1,0 +1,33 @@
+Recipe: 8Down
+  Repeat If steps are <8
+        |Down
+        |Save steps as +1 step
+  If steps are =8
+        |Right
+        |Right
+        
+        Recipe: 7Down
+  Repeat If steps are <7
+        |Down
+        |Save steps as +1 step
+  If steps are =7
+        |Right
+        |Right
+        
+          Recipe: 7Up
+  Repeat If steps are <7
+        |Up
+        |Save steps as +1 step
+  If steps are =7
+        |Right
+        |Right
+        
+8Down
+Save 0 as steps
+7Up
+Save 0 as steps
+7Down
+Save 0 as steps
+7Up
+Save 0 as steps
+7Down
