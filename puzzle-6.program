@@ -1,0 +1,21 @@
+Recipe:Color1
+         If GetColor is not blue
+            |Up
+            |Up
+            |Up
+         If GetColor is blue   
+            |Down
+            |Down
+            |Down
+            
+ Recipe:Color2
+         If GetColor is not blue
+            |Left
+            |Up
+         If GetColor is blue
+            |Right
+            |Up
+            
+Right
+Color1
+Color2
